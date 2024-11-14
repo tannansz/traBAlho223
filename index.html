@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Rotating Banner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="slides">
+            <div class="slide active">
+                <img src="https://cdn.discordapp.com/attachments/1109697767359660032/1306701903928758272/Texto_do_seu_paragrafo_1.png?ex=6737a07b&is=67364efb&hm=e1abd0b590656e91f4eebea0ac01af745421506911ba4fea1b0d37928cdb67b6&" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="https://cdn.discordapp.com/attachments/1109697767359660032/1306701903463321610/Texto_do_seu_paragrafo.png?ex=6737a07b&is=67364efb&hm=573543912b72f68139007bf5a3a66d7df24d7b99e45ffbc96b95cbf4665580fe&" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="https://cdn.discordapp.com/attachments/1109697767359660032/1306701904621076500/Texto_do_seu_paragrafo_2.png?ex=6737a07b&is=67364efb&hm=83844c91859f501fb8188a44a388315a4afe35f2f9722441ac7c0bffc3335ce8&" alt="Imagem 3">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
